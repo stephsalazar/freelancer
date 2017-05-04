@@ -40,3 +40,15 @@ a:hover {
 img {
   vertical-align: middle;
 }
+
+h1 {
+  color: white;
+  font-size: 66px;
+}
+div {
+  display: inline-block;
+}
+#home {
+  background-color: #18BC9C;
+  height: 600px;
+}
