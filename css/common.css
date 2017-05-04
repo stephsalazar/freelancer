@@ -12,12 +12,26 @@
 
 .letraPequeña {
   font-size: 15px;
+  padding-top: 50px;
 }
 
  .container {
    width: 100%;
    padding: 0;
  }
+
+ .espacio {
+   height: 100px;
+ }
+
+.transparente {
+  background-color : transparent;
+}
+
+.rayita {
+  border: 2px solid white;
+  width: 170px;
+}
 
  .row:before, .row:after {
    content: " ";
@@ -26,7 +40,7 @@
 
  [class*="col-"] {
    min-height: 7px;
-   padding: 12px;
+   padding: 13px;
    float: left;
 }
 
