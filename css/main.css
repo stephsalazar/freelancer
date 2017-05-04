@@ -1,3 +1,42 @@
 /*
  * Estilos de tu proyecto
  */
+ *{
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+ }
+
+ *:before,
+ *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+body {
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+header {
+    position: fixed;
+    background: #2C3E50;
+    width: 100%;
+    padding: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #18BC9C;
+}
+
+img {
+  vertical-align: middle;
+}
