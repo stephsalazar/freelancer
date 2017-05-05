@@ -28,6 +28,14 @@
   font-family: 'Lato', sans-serif;
 }
 
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .headerHover:hover {
   color: #18BC9C;
 }
@@ -103,13 +111,26 @@
 .botonFormulario {
   background-color: #18BC9C;
   font-size: 18px;
-  font-weight: bold;
   color: white;
   padding: 15px;
   border-radius: 10px;
   border-style: none;
 }
 
+.subTituloFooter {
+    font-size: 24px;
+}
+
+.parrafoFooter {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.iconosFooter {
+  border: 3px solid white;
+  border-radius: 100%;
+  padding: 5px;
+}
 .row:before, .row:after {
   content: " ";
   display: table;
