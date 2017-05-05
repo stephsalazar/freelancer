@@ -33,10 +33,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #18BC9C;
-}
-
 img {
   vertical-align: middle;
 }
@@ -48,13 +44,11 @@ h1 {
 
 h2 {
   color: white;
-  font-family: 'Lato', sans-serif;
-  font-weight: lighter;
   font-size: 24px;
+  font-weight: lighter;
 }
 
 h3 {
-  color: #333333;
   font-weight: bold;
   font-size: 42px;
 }
@@ -63,21 +57,29 @@ div {
   display: inline-block;
 }
 
+p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+span {
+  font-weight: 400;
+  font-size: 20px;
+}
 #home {
   background-color: #18BC9C;
   height: 650px;
 }
 
-#estrella {
-  color: white;
-}
-
-
-#estrellaAzul {
-  color: #2C3E50;
-}
-
 #portfolio {
+  color: #333333;
   background-color: white;
   height: 800px;
+}
+
+#about {
+  color: white;
+  background-color: #18BC9C;
+  height: 550px;
 }
