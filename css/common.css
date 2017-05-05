@@ -10,9 +10,18 @@
    text-align: center;
  }
 
+.alineadoIzquierdo{
+ text-align: left;
+}
+
 .letraPequeña {
   font-size: 15px;
   padding-top: 50px;
+}
+
+.tamanoTexto {
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .lato {
@@ -22,7 +31,8 @@
 .headerHover:hover {
   color: #18BC9C;
 }
- .container {
+
+.container {
    width: 100%;
    padding: 0;
  }
@@ -33,12 +43,12 @@
  }
 
 .rayita {
-  border: 2.5px solid white;
+  border: 3px solid white;
   width: 100px;
 }
 
 .rayitaAzul {
-  border: 2.5px solid #2C3E50;
+  border: 3px solid #2C3E50;
   width: 95px;
 }
 
@@ -50,6 +60,11 @@
   color: #2C3E50;
 }
 
+.subTituloAzul {
+  color: #333333;
+  background-color: white;
+}
+
 .portfolioImagenes img{
   width: 27%;
   margin: 1%;
@@ -57,18 +72,50 @@
 }
 
 .download {
+  background-color: transparent;
   font-size: 20px;
+  color: white;
   padding: 12px;
   border-radius: 5px;
   border-color: white;
   border: 2px solid white;
 }
+
+.download:hover {
+  background-color: white;
+  color: #18BC9C;
+  cursor: pointer;
+}
+
+.lineaDivisionFormulario {
+  border-top: 1px solid #f0f0f0;
+  width: 65%;
+}
+
+.tamanoLetraFormulario{
+  font-size: 70%;
+  font-weight: lighter;
+  width: 60%;
+  margin: 5px;
+  border: none;
+}
+
+.botonFormulario {
+  background-color: #18BC9C;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border-style: none;
+}
+
 .row:before, .row:after {
-   content: " ";
-   display: table;
+  content: " ";
+  display: table;
  }
 
- [class*="col-"] {
+[class*="col-"] {
    min-height: 7px;
    padding: 13px;
    float: left;

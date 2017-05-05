@@ -57,29 +57,21 @@ div {
   display: inline-block;
 }
 
-p {
-  text-align: left;
-  font-weight: 400;
-  font-size: 20px;
-}
-
-span {
-  font-weight: 400;
-  font-size: 20px;
-}
 #home {
   background-color: #18BC9C;
   height: 650px;
 }
 
 #portfolio {
-  color: #333333;
-  background-color: white;
   height: 800px;
 }
 
 #about {
   color: white;
   background-color: #18BC9C;
-  height: 550px;
+  height: 580px;
+}
+
+#contactMe {
+  height: 600px;
 }
