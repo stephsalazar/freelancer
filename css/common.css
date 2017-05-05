@@ -22,17 +22,24 @@
 
  .espacio {
    height: 100px;
+   background-color : transparent;
  }
 
-.transparente {
-  background-color : transparent;
-}
-
 .rayita {
-  border: 2px solid white;
-  width: 170px;
+  border: 2.5px solid white;
+  width: 100px;
 }
 
+.rayitaAzul {
+  border: 2.5px solid #2C3E50;
+  width: 95px;
+}
+
+.portfolioImagenes img{
+  width: 27%;
+  margin: 1%;
+  cursor: pointer;
+}
  .row:before, .row:after {
    content: " ";
    display: table;
