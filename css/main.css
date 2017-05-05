@@ -45,10 +45,23 @@ h1 {
   color: white;
   font-size: 66px;
 }
+
+h2 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
 div {
   display: inline-block;
 }
+
 #home {
   background-color: #18BC9C;
-  height: 600px;
+  height: 700px;
+}
+
+#estrella {
+  color: white;
 }
